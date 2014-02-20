@@ -1,0 +1,29 @@
+{
+    "name"       : "1.helloworld",
+    "description": "Study LiveScript",
+    "version"    : "0.0.1",
+    "contributor": [
+        {
+            "name" : "Lee",
+            "email": "jessy1092@gmail.com"
+        }
+    ],
+    "scripts": {
+        "build": "lsc -co public src",
+        "start": "node ./public/hello.js"
+    },
+    "engines":{
+        "node": "0.10.x",
+        "npm": "1.3.x"
+    },
+    "dependencies": {
+
+    },
+    "repository": [
+        {
+            "type": "git",
+            "url" : "git://github.com/jessy1092/LSExample"
+        }
+    ],
+    "license": "MIT"
+}
