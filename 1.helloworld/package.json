@@ -9,8 +9,8 @@
         }
     ],
     "scripts": {
-        "build": "lsc -co public src",
-        "start": "node ./public/hello.js"
+        "build": "lsc -co _public src",
+        "start": "node ./_public/hello.js"
     },
     "engines":{
         "node": "0.10.x",
