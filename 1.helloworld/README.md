@@ -5,7 +5,7 @@ Complie `hello.ls` to `hello.js`.
 
 ## Usage
 
-- `npm run build`  or `lsc -co public src`
+- `npm run build`  or `lsc -co _public src`
 
 and then
 
@@ -13,5 +13,5 @@ and then
 
 ## Result
 
-You would see `Hello World` on the console and find the `hello.js` in the `./public` folder.
+You would see `Hello World` on the console and find the `hello.js` in the `./_public` folder.
 
