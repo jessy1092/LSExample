@@ -27,8 +27,12 @@ console.log obj
 obj = {y, z}    # can't not write as obj = y, z
 console.log obj # set the key name to be the same as the variable name
 
-add = (a, b) -> a + b
-console.log add 10 2
+addOne = (a) -> a + 1
+console.log addOne 10
 
-minus = (a, b, callback) -> callback a - b
-minus 10, 5, (data) -> console.log data
+10 |> addOne |> console.log
+
+console.log <| addOne <| 10
+
+show = console.log << addOne
+show 10
