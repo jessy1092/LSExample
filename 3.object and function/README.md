@@ -1,7 +1,7 @@
 Literals
 =============
 
-Introduce the Literals - numbler, string. 
+Introduce the Object and Function. 
 
 ## Usage
 
