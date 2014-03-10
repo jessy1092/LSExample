@@ -13,5 +13,5 @@ and then
 
 ## Result
 
-You would see results on the console and find the `literals.js` in the `./_public` folder.
+You would see results on the console and find the `object_and_function.js` in the `./_public` folder.
 
