@@ -30,9 +30,9 @@ console.log obj # set the key name to be the same as the variable name
 addOne = (a) -> a + 1
 console.log addOne 10
 
-10 |> addOne |> console.log
+10 |> addOne |> console.log     # Piping
 
 console.log <| addOne <| 10
 
-show = console.log << addOne
+show = console.log << addOne    # Compose function
 show 10
