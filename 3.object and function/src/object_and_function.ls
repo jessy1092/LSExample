@@ -43,4 +43,4 @@ console.log <| addOneTimesTwo <| 10     # (10 + 1) * 2 = 22
 timesTwoAddOne = (+ 1) << (* 2)
 console.log <| timesTwoAddOne <| 10     # (10 * 2) + 1 = 21
 
-console.log <| (+ 1) << (* 2) <| 10
+console.log <| (+ 1) << (* 2) <| 10     # the same
